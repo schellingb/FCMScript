@@ -1,3 +1,7 @@
+@rem -----------------------------------------------------------------------
+@rem --- FCM_SCRIPT - Based on the works of http://honeylab.hatenablog.jp/ -
+@rem -----------------------------------------------------------------------
+
 @echo Appending fcm_script.sh to filesystem ...
 @tool_gzip.exe -dfkq up5rootfs.cpio.gz
 @copy /Y fcm_script.sh fcm_script_run >NUL
